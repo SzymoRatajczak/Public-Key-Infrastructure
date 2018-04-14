@@ -1,6 +1,6 @@
 //verify message 
 //to ensure that data are form source we except it  to be 
-var bufferedMsg-new Buffer(encrpyted);
+var bufferedMsg=new Buffer(encrpyted);
 if(!senderPubKey.hashAndVerify('sha256',bufferMsg,signed,'base64'))
 {
 	throw new Error('Invalid signature');
