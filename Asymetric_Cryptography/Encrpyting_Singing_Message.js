@@ -7,7 +7,7 @@ var msg=
 	'state':'active'
 	
 };
-//convert JSON into string
+ 
 msg=JSON.stringify(msg);
 
 //encrypt with recipent public key and sign by sender private key
